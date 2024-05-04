@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="favicon.ico">
+    <title>CV ANDRES MARTINEZ</title>
+</head>
+<body>
+    <!-- SECCION INICIO -->
+    <section class="inicio" id="inicio">
+        <div class="contenido-seccion">
+            <header>
+                <div class="nav-bar" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <nav id="nav" class="nav">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#sobremi">Sobre mí</a>
+                    <a href="#habilidades">Habilidades</a>
+                    <a href="#resumen">Resumen</a>
+                    <a href="#contacto">Contacto</a>
+                </nav>
+                
+            </header>
+            <div class="info">
+                <h1>Andres Martinez</h1>
+                <h2>ESTUDIANTE DE PROGRAMACION EN SOFTWARE</h2>
+                <div class="redes">
+                    <a href="https://github.com/AndrewMtz23"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.reddit.com/user/No-Possibility3962/"><i class="fa-brands fa-reddit"></i></a>
+                    <a href="https://facebook.com/AndresMtz.exee/"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/andres_mtz.exe/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="foto">
+                <img src="foto.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section class="sobremi" id="sobremi">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Sobre Mi</h2>
+            <h3>Detalles Personales</h3>
+
+            <p class="especial">Soy Andrés Moreno Martinez, un estudiante de 21 años de Desarrollo de Software en la UTEQ</p>
+            <p>Desde joven, he sentido una profunda pasión por la creación de programas y aplicaciones. Mi interés por la programación me ha llevado a explorar diferentes lenguajes y tecnologías, buscando siempre mejorar mis habilidades y conocimientos en este campo apasionante.
+            </p>
+
+            <div class="fila">                             
+                <div class="col">
+                    <i class="fa-solid fa-location-pin"></i>
+                    <span class="titulo-detalle">Ubicación</span>
+                    <p>Actualmente vivo en Santiago de Queretaro, Queretaro.</p>
+                </div>
+                <div class="col">
+                    <i class="fa-brands fa-github"></i>
+                    <span class="titulo-detalle">Proyectos</span>
+                    <p>Conoce un poco acerca de los trabajos y proyectos que he reaizado con el paso del tiempo.</p>
+                    <a href="https://github.com/AndrewMtz23" class="btn-morado">Ir a Github</a>
+                </div>                
+                <style>
+                    .btn-morado {
+                        display: inline-block;
+                        padding: 10px 20px;
+                        margin-top: 10px;
+                        background-color: #6f42c1;
+                        color: white;
+                        text-decoration: none;
+                        border-radius: 5px;
+                        transition: background-color 0.3s;
+                    }
+                
+                    .btn-morado:hover {
+                        background-color: #5a32a3;
+                    }
+                </style>
+                <div class="col">
+                    <i class="fa-solid fa-flag"></i>
+                    <span class="titulo-detalle">Intereses</span>
+                    <p>Estoy emocionado por seguir aprendiendo y creciendo en el mundo del desarrollo de software, ¡y ansioso por enfrentar nuevos desafíos y proyectos!, ademas tengo una aficion por las Plantas y el Arte.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION HABILIDADES -->
+    <section class="habilidades" id="habilidades">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Mis habilidades</h2>
+            <h3>Me especializo en</h3>
+
+            <div class="fila">
+                <div class="col">
+                    <span>HTML/CSS</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="html">
+                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+                        </div>
+                        <span>70%</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <span>JAVASCRIPT</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="javascript">
+                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+                        </div>
+                        <span>55%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <span>WORDPRESS</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="wordpress">
+                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+                        </div>
+                        <span>40%</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <span>MYSQL</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="photoshop">
+                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+                        </div>
+                        <span>70%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <span>PHP</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="php">
+                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+                        </div>
+                        <span>65%</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <span>JAVA</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="ilustrator">
+                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+                        </div>
+                        <span>75%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION RESUMEN -->
+    <section class="resumen" id="resumen">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Resumen</h2>
+            <h3>Mi preparación y experiencia</h3>
+            <div class="info">
+                <div class="col">
+                    <span class="titulo">Educación</span>
+                    ...
+
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2022 - 2024</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Av. Pie de la Cuesta 2501, Nacional, 76148 Santiago de Querétaro, Qro.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>TSU en Desarrollo de Software Multiplataforma</h4>
+                                <p>Universidad Tecnologica de Queretaro</p>
+                                <span class="promedio">8.7 PG</span>
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2023 - 2024</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Av. Pie de la Cuesta 2501, Nacional, 76148 Santiago de Querétaro, Qro.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Ingles Sabatino</h4>
+                                <p>Universidad Tecnologica de Queretaro</p>
+                                <span class="promedio">8.2 PG</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col">
+                    <span class="titulo">Proyectos Realizados</span>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>4 Meses</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Desarrollo de ecommerce en PHP y MySQL.
+                                Desarrollo de ecommerce utilizando UI/UX correcto.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>LimpiaExpress</h4>
+                                <p>Sitio Web</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>4 Meses</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Desarrollo de aplicación web con el framework React para la página de ecommerce Plantopia.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Plantopia</h4>
+                                <p>Sitio Web y App</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>4 Meses</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Proyecto fullstack para el desarrollo de una aplicación de logística y gestión de alimentación y monitoreo por medio de React y React Native.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>AquaBite</h4>
+                                <p>Sitio Web y App</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Contacto</h2>
+            <h3>Ponte en contacto ahora mismo!</h3>
+
+            <div class="fila">
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-phone" style="color: #6ab04c;"></i> Teléfono
+                    </h2>
+                    <span class="info-contacto">52 - 4421781565</span>
+                </div>
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-envelope" style="color: #6ab04c;"></i> Correo
+                    </h2>
+                    <span class="info-contacto">andresmmtz23@gmail.com</span>
+                </div>
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-globe" style="color: #6ab04c;"></i> Página Web
+                    </h2>
+                    <span class="info-contacto">andrewmtz23.github.io</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
